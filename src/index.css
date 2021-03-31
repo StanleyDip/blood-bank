@@ -11,3 +11,219 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+input{
+  display: table-column;
+  text-align: center;
+  background-color: #e9ecf5;
+  font-size: 12px;
+  color: black;
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 25px;
+}
+h2 span{
+  color: #cc0000;
+}
+h2{
+  margin-top: 0;
+}
+.welcomeblood{
+height: 70px;
+margin: 0px 0px;
+}
+.signup{
+  margin:0px;
+}
+label{
+  float: left;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.signupform1{
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.signupform1-child{
+  float: right;
+  margin-right: 60px;
+}
+
+.signup-paragraph{
+  /* text-align: center; */
+  width: 280px;
+  height: auto;
+  font-weight: lighter;
+  font-size: larger;
+}
+/* .signup-next{
+  display: table-column;
+  text-align: center;
+  background-color: gainsboro;
+  color: white;
+  border-style: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+} */
+.start-journey{
+  /* margin-top: 80px;;
+  background-color: #cc0000;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 150px;
+  height: 50px; */
+  margin-top: 20px;
+  background-color: #cc0000;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+}
+.start-journey-1{
+  margin-top: 20px;
+  background-color: #cc0000;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  right: 150px;
+}
+ .signup-next{ /*button */
+  margin-top: 20px;;
+  background-color: #cc0000;
+  color: white;
+  border-style: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+}
+.none{
+  /* position: relative;
+ left: 100px;
+  top: 100px; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+  
+}
+.selectbloodtype{
+background-color: white;
+border: 1px solid ;
+color: #cc0000;
+padding: 20px;
+/* text-align: center; */
+text-decoration: none;
+/* display: inline-block; */
+font-size: 11px;
+margin: 13px 13px;
+width: 60x;
+height: 50px;
+border-radius: 100%;
+cursor: pointer;
+
+}
+.selectbloodtype:focus{
+  background-color: #cc0000;
+  color: white;
+  outline: none;
+    border: none;
+}
+.weight-image-parent{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 36px;
+}
+.weight-image{
+  width: 80px;
+  height: 125px;
+
+  
+}
+.weight-image:hover{
+  cursor: pointer;
+}
+.weight-image:active{
+  cursor: pointer;
+  border: 2px solid black;
+}
+.weight-image-upload{
+width: 160px;
+
+margin: 50px 0px;
+position: relative;
+left: 60px;
+}
+h6{
+color:#A8A8A8;
+text-align: center;
+}
+.side-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+ 
+}
+.donate-image{
+  width: 150px;
+  height: 170px;
+  margin: auto;
+  position: relative;
+  bottom: -100px;
+}
+.profile{
+  background-color: gray;
+  float: right;
+  width: calc(100% - 250px);
+  height: 100vh;
+  margin: 0px 0px;
+}
+ .profile-blood{
+  height: 4%;
+  width: 25%;
+  margin: 0px auto;
+ 
+} 
+.profile-h2{
+  font-size: 12px;
+  font-weight: 200px;
+  text-align: center;
+}
+.profile-sd-icon{
+width: 16px;
+height: 16px;
+padding-left: 24px;
+right: 0px;
+
+}
+h4{
+text-align: center;
+padding-right: 24px;
+}
